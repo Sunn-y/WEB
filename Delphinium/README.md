@@ -26,8 +26,8 @@ Java e-commerce software
               maxWaitMillis="-1"/&gt;</code></pre>     
 * * *
 ### Access the application:
+##### ※ Run *delphinium/dto/total.sql* 
 * Access the deployed web application at: http://localhost:8090/Delphinium/main.do
 * Access the admin section at: http://localhost:8090/Delphinium/loginForm.do
-##### ※ Run *delphinium/dto/total.sql* 
 	* username : admin
 	* password : delp
