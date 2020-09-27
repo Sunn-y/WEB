@@ -23,11 +23,11 @@ Java e-commerce software
               type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver"
               url="jdbc:oracle:thin:@127.0.0.1:1521:mysid"
               username="scott" password="tiger" maxTotal="20" maxIdle="10"
-              maxWaitMillis="-1"/&gt;</code></pre>
-##### if you want to see the views with sample data -> Run sql(delphinium/dto/total.sql)      
+              maxWaitMillis="-1"/&gt;</code></pre>     
 * * *
 ### Access the application:
 * Access the deployed web application at: http://localhost:8090/Delphinium/main.do
 * Access the admin section at: http://localhost:8090/Delphinium/loginForm.do
+##### ※ Run *delphinium/dto/total.sql* 
 	* username : admin
 	* password : delp
