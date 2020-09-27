@@ -1,4 +1,5 @@
-## Delphinium(for java 1.8 +)
+## Delphinium
+* * *
 
 Java open source e-commerce software
 
