@@ -1,4 +1,4 @@
-## Delphinium
+# Delphinium
 * * *
 
 Java open source e-commerce software
