@@ -13,17 +13,12 @@ Java open source e-commerce software
 
 
 1. WAS = tomcat의 context.xml에 가서 db id pw 입력 설정
-
-<pre>
-<code>
-&lt;Resource name="jdbc/myoracle" auth="Container"
+<pre><code>&lt;Resource name="jdbc/myoracle" auth="Container"
               type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver"
               url="jdbc:oracle:thin:@127.0.0.1:1521:mysid"
               username="scott" password="tiger" maxTotal="20" maxIdle="10"
-              maxWaitMillis="-1"/&gt;
-</code></pre>
+              maxWaitMillis="-1"/&gt;</code></pre>
 	
-
 Run the application from Tomcat 
 -------------------
 copy sm-shop/target/ROOT.war to tomcat or any other application server deployment dir
