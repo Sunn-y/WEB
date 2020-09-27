@@ -10,7 +10,7 @@ Java e-commerce software
 * Administration
 
 ### See the demo
-
+![main.jsp](./sunn-y.github.com/img/main.jpg)
 
 ##### Development environment
 * java 1.8
