@@ -10,7 +10,7 @@ Java e-commerce software
 * Administration
 
 ### See the demo
-![main.jsp](./sunn-y.github.com/img/Delp_catal.png)
+![main.jsp](../sunn-y.github.com/img/Delp_catal.png)
 
 ##### Development environment
 * java 1.8
