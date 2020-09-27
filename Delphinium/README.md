@@ -27,6 +27,7 @@ Java e-commerce software
 * * *
 ### Access the application:
 ##### ※ Run *delphinium/dto/total.sql* 
+All data is sample data from real websites.
 * Access the deployed web application at: http://localhost:8090/Delphinium/main.do
 * Access the admin section at: http://localhost:8090/Delphinium/loginForm.do
 	* username : admin
