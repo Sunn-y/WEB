@@ -1,4 +1,4 @@
-# Delphinium
+# Web Project #Delphinium
 Java e-commerce software
 * Catalogue
 * Shopping cart
@@ -11,12 +11,12 @@ Java e-commerce software
 ![main.jsp](https://github.com/Sunn-y/sunn-y.github.com/blob/master/img/Delp_main.png)
 ![catalogue.jsp](https://github.com/Sunn-y/sunn-y.github.com/blob/master/img/Delp_catal.png)
 * * *
-##### Development environment
-* java 1.8
-* tomcat v8.5
-* oracle v11.0
+### Development environment
+* Java v1.8 +
+* Apache-Tomcat v8.5
+* Oracle 11g XE 11.2
 * * *	
-##### Run the application with Tomcat 
+### Run the application with Tomcat 
 1. Change port number of Tomcat server: 8090
 2. Add code on *context.xml*(username, password of your DB)
 <pre><code>&lt;Resource name="jdbc/myoracle" auth="Container"
@@ -24,10 +24,10 @@ Java e-commerce software
               url="jdbc:oracle:thin:@127.0.0.1:1521:mysid"
               username="scott" password="tiger" maxTotal="20" maxIdle="10"
               maxWaitMillis="-1"/&gt;</code></pre>
+3. Run sql(/Delphinium/src/com/delphinium/dto/total.sql): You can add sample data	      
 * * *
 ### Access the application:
 * Access the deployed web application at: http://localhost:8090/Delphinium/main.do
 * Access the admin section at: http://localhost:8090/Delphinium/loginForm.do
 	* username : admin
 	* password : delp
-* * *
