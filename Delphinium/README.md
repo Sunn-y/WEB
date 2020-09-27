@@ -8,8 +8,8 @@ Java e-commerce software
 * Administration
 * * *
 ### See the views
-![main.jsp](https://github.com/Sunn-y/sunn-y.github.com/blob/master/img/Delp_main.png)
-![catalogue.jsp](https://github.com/Sunn-y/sunn-y.github.com/blob/master/img/Delp_catal.png)
+![main.png](https://github.com/Sunn-y/sunn-y.github.com/blob/master/img/Delp_main.png)
+![catalogue.png](https://github.com/Sunn-y/sunn-y.github.com/blob/master/img/Delp_catal.png)
 * * *
 ### Development environment
 * Java v1.8 +
