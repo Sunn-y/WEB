@@ -1,7 +1,6 @@
 # Delphinium
+Java e-commerce software
 * * *
-
-Java open source e-commerce software
 
 * Catalogue
 * Shopping cart
