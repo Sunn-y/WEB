@@ -24,7 +24,7 @@ Java e-commerce software
               url="jdbc:oracle:thin:@127.0.0.1:1521:mysid"
               username="scott" password="tiger" maxTotal="20" maxIdle="10"
               maxWaitMillis="-1"/&gt;</code></pre>
-3. Run sql(/Delphinium/src/com/delphinium/dto/total.sql): You can add sample data	      
+##### if you want to see the views with sample data -> Run sql(delphinium/dto/total.sql)      
 * * *
 ### Access the application:
 * Access the deployed web application at: http://localhost:8090/Delphinium/main.do
