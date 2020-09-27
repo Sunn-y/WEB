@@ -1,0 +1,83 @@
+* {
+	font-family: ³ª´®¸íÁ¶;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+h2 {
+	color: #0F4C81;
+	text-align: center;
+}
+
+h4 {
+	width: 60%;
+}
+
+hr {
+	border: 0.5px solid #0F4C81;
+}
+
+.notice, .noticeView, .promotion, .promotionView {
+	border-collapse: collapse;
+}
+
+.notice th, .notice td, .noticeView th, .noticeView td, .promotion th,
+	.promotion td, .promotionView th, .promotionView td {
+	padding: 10px;
+}
+
+.notice th, .noticeView th, .promotion th, .promotionView th {
+	border-top: 3px solid #0F4C81;
+	border-bottom: 1px solid #0F4C81;
+	color: #0F4C81;
+	font-weight: bold;
+}
+
+.notice td, .noticeView td, .promotion td, .promotionView td {
+	border-bottom: 1px solid lightgray;
+}
+
+#boardBTN, #noticeListBTN, #promotionListBTN {
+	background: none;
+	border: none;
+	color: #0F4C81;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.noticeView th, .noticeView td, .promotionView th, .promotionView td {
+	padding: 20px;
+}
+
+.noticeEdit input[type=text], .noticeEdit textarea, .noticeWrite input[type=text],
+	.noticeWrite textarea, .promotionEdit input[type=text], .promotionEdit textarea,
+	.promotionWrite input[type=text], .promotionWrite textarea {
+	width: 98%;
+	padding: 10px;
+}
+
+.noticeEdit textarea, .noticeWrite textarea, .promotionEdit textarea,
+	.promotionWrite textarea {
+	height: 300px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#noticeEditBTN, #noticeDeleteBTN, #noticeWriteBTN, #noticeResetBTN,
+	#promotionWriteBTN, #promotionResetBTN, #promotionEditBTN,
+	#promotionDeleteBTN, #noticeListBTN2, #promotionListBTN2,
+	#noticeWriteBTN, #promotionWriteBTN {
+	vertical-align: middle;
+	background: #0F4C81;
+	width: 30%;
+	height: 2em;
+	border: 1px groove #0F4C81;
+	color: white;
+	border: none;
+	font-size: 1em;
+	cursor: pointer;
+	background: #0F4C81;
+}

@@ -1,0 +1,109 @@
+* {
+	font-family: ³ª´®¸íÁ¶;
+}
+
+.container0 {
+	margin: 0 auto;
+}
+
+
+.toolBar {
+	margin-top: 20px;
+	width: 80%;
+}
+
+#boardTB, #multiTB {
+	display: inline-block;
+}
+
+#multiTB {
+	float: right;
+}
+
+#boardTB a, #multiTB a {
+	text-decoration: none;
+	color: black;
+}
+
+#search {
+	padding-top: 80px;
+	margin-bottom: 10px;
+}
+
+#searchTB {
+	border: 1px solid #0F4C81;
+	padding: 3px;
+}
+
+#searchBTN {
+	background: #0F4C81;
+	border: 1px groove #0F4C81;
+	cursor: pointer;
+	height: 2em;
+}
+
+.search td {
+	text-align: right;
+	vertical-align: bottom;
+	padding-bottom: 10px;
+}
+
+.navBar {
+	text-align: center;
+	border: 2px solid #0F4C81;
+	border-collapse: collapse;
+	height: 2.5em;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navBar a:link, .navBar a:visited {
+	text-decoration: none;
+	color: black;
+	font-size: 1.4em;
+}
+
+.navBar a:hover {
+	color: #760C0C;
+	font-size: 1.6em;
+}
+
+#movingTool {
+	color: #0F4C81;
+	position: fixed;
+	bottom: 70px;
+	right: 20px; 
+	text-align: center;
+	vertical-align: middle;
+	width: 2em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+
+#loginInfo {
+	float: right;
+	color: #0F4C81;
+}
+
+h2 {
+	color: #0F4C81;
+}
+
+hr {
+	border: 0.5px solid #0F4C81;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+	color: #0F4C81;
+	background: powderblue;
+}

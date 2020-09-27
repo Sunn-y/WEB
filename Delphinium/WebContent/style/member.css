@@ -1,0 +1,221 @@
+* {
+	font-family: ³ª´®¸íÁ¶;
+}
+
+h2 {
+	color: #0F4C81;
+}
+
+hr {
+	border: 0.5px solid #0F4C81;
+}
+
+.BTN {
+	background: #0F4C81;
+	border: 1px groove powderblue;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+#toolBar a {
+	text-decoration: none;
+}
+
+.container {
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.loginBox {
+	background: white;
+	width: 25%;
+	margin-top: 140px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.idCheckBox {
+	margin-top: 80px;
+	text-align: center;
+}
+
+.idCheckBox td, .idCheckBox th {
+	padding: 10px;
+}
+
+#logo, #loginID, #loginPW, #loginBTN {
+	width: 70%;
+	margin: 3px;
+}
+
+#loginBTN {
+	background: #0F4C81;
+	border: 1px groove #0F4C81;
+	color: white;
+	margin-bottom: 10px;
+	height: 2.5em;
+	cursor: pointer;
+}
+
+.loginResult {
+	color: red;
+}
+
+#joinConTable, #joinMarTable, .memberView, .marketView {
+	border-collapse: collapse;
+}
+
+#joinConTable th, #joinMarTable th, .memberView th, .marketView th {
+	text-align: left;
+	border-bottom: 1px solid lightgray;
+	padding: 10px;
+}
+
+#joinConTable td, #joinMarTable td, .memberView td, .marketView td {
+	text-align: left;
+	border-bottom: 1px solid lightgray;
+	padding: 10px;
+	word-break: break-all;
+}
+
+.consumer, .marketer {
+	cursor: pointer;
+	border-collapse: collapse;
+	border: 1px solid #0F4C81;
+}
+
+.consumer td:hover, .marketer td:hover {
+	background: powderblue;
+}
+
+.consumer td, .marketer td {
+	border: 1px solid #0F4C81;
+	font-size: 3em;
+}
+
+.consumer th, .marketer th {
+	background: #0F4C81;
+	color: white;
+	border: 1px solid #0F4C81;
+}
+
+#userPW, #PWCheck, #name, #birth, #phone, #address, #CName, #email, #sns,
+	#mypageUserID {
+	width: 100%;
+	font-size: 15px;
+	color: white;
+	background: #0F4C81;
+	padding: 7px;
+	border-radius: 5px;
+	border: none;
+}
+
+#userIDCheck {
+	width: 50%;
+	font-size: 15px;
+	color: white;
+	background: #0F4C81;
+	padding: 7px;
+	border-radius: 5px;
+	border: none;
+}
+
+#userID {
+	width: 70%;
+	font-size: 15px;
+	color: white;
+	background: #0F4C81;
+	padding: 7px;
+	border-radius: 5px;
+	border: none;
+}
+
+#idCheckBTN, #idOKBTN {
+	background: #0F4C81;
+	border: 1px groove #0F4C81;
+	color: white;
+	height: 2.5em;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#joinConTable input::placeholder, #joinMarTable input::placeholder {
+	color: white;
+}
+
+#joinBTN, #orderListBTN, #mainBTN, input[type=reset], #conDeleteBTN,
+	#marDeleteBTN {
+	background: #0F4C81;
+	border: 1px groove #0F4C81;
+	color: white;
+	margin-bottom: 10px;
+	height: 2.5em;
+	border-radius: 5px;
+	padding: 15px 15px;
+	padding-bottom: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.textBox {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	line-height: 30px;
+	border: 1px solid #0F4C81;
+	width: 40%;
+}
+
+.memberList {
+	border: 1px solid #0F4C81;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.memberList th, .memberList td {
+	border: 1px solid #0F4C81;
+	padding: 5px;
+}
+
+.memberList th {
+	background: #0F4C81;
+	color: white;
+}
+
+.search {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#searchOption {
+	height: 23px;
+	border: 1px solid #0F4C81;
+}
+
+#MDsearchTB, #memberSearchTB {
+	border: 1px solid #0F4C81;
+	padding: 3px;
+}
+
+#MDsearchBTN, #memberSearchBTN, #DeleteMD {
+	color: white;
+	background: #0F4C81;
+	height: 23px;
+	border: 1px groove #0F4C81;
+	cursor: pointer;
+}
+
+.MDDetailInfo {
+	text-align: center;
+}
+
+.MDDetailInfo td, .cart td {
+	padding: 20px;
+}
+
+.MDDetailInfo th, .cart th {
+	padding: 20px;
+	text-align: left;
+}

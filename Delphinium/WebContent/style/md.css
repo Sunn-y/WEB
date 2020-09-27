@@ -1,0 +1,193 @@
+* {
+	font-family: ³ª´®¸íÁ¶;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+h2 {
+	color: #0F4C81;
+	text-align: center;
+}
+
+h4 {
+	width: 60%;
+}
+
+hr {
+	border: 0.5px solid #0F4C81;
+}
+
+#review {
+	text-align: center;
+}
+
+#review td, #QA td {
+	border: 1px solid #0F4C81;
+	padding: 10px;
+	height: 3em;
+}
+
+.MDRegi, .MDEdit {
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.marMDList, .orderList {
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.marMDList th, .marMDList td, .orderList th, .orderList td {
+	border: 1px solid #0F4C81;
+	padding: 5px;
+}
+
+.marMDList th, .orderList th {
+	background: #0F4C81;
+	color: white;
+}
+
+.MDList {
+	width: 32%;
+	text-align: left;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 50px;
+	display: inline-table;
+	cursor: pointer;
+}
+
+.MDList td {
+	height: 75px;
+	word-break: break-all;
+}
+
+.MDList:hover {
+	background: powderblue;
+}
+
+.MDList img {
+	width: 200px;
+	height: 250px;
+	background: none;
+}
+
+.MDList td {
+	padding-left: 50px;
+	padding-right: 50px;
+	overflow: hidden;
+}
+
+.MDRegi input[type=text], .MDRegi textarea, .MDEdit textarea, .MDRegi select,
+	.MDEdit input[type=text], .MDEdit select {
+	width: 98%;
+	font-size: 15px;
+	color: white;
+	background: #0F4C81;
+	padding: 7px;
+	border-radius: 5px;
+	border: none;
+}
+
+.MDRegi th, .MDRegi td, .MDEdit th, .MDEdit td {
+	padding: 5px;
+	border-bottom: 1px solid lightgray;
+}
+
+.MDRegi th, .MDEdit th {
+	text-align: left;
+	width: 100px;
+}
+
+.search {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#searchOption {
+	height: 23px;
+	border: 1px solid #0F4C81;
+}
+
+#MDSearchTB, #ODSearchTB {
+	border: 1px solid #0F4C81;
+	padding: 3px;
+}
+
+#MDSearchBTN, #ODSearchBTN {
+	color: white;
+	background: #0F4C81;
+	height: 23px;
+	border: 1px groove #0F4C81;
+	cursor: pointer;
+}
+
+.MDDetailInfo {
+	text-align: center;
+}
+
+.MDDetailInfo td, .cart td {
+	padding: 20px;
+}
+
+.MDDetailInfo th, .cart th {
+	padding: 20px;
+	text-align: left;
+}
+
+.BTN, #MDRegiBTN, #MDEditBTN, input[type=reset] {
+	background: #0F4C81;
+	border: 1px groove powderblue;
+	color: white;
+	border: none;
+	cursor: pointer;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#buyNow, #cart, #orderBTN {
+	background: #0F4C81;
+	width: 45%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 1px groove #0F4C81;
+	color: white;
+	border: none;
+	font-size: 1.3em;
+	cursor: pointer;
+}
+
+.forBorder1 {
+	border-top: 1px solid #0F4C81;
+	text-align: left;
+	color: #0F4C81;
+}
+
+.forBorder2 {
+	font-weight: bold;
+	text-align: left;
+	text-indent: 2em;
+	border-bottom: 1px solid #0F4C81;
+}
+
+.marketView:hover, .order:hover {
+	color: #760C0C;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.orderView td, .orderView th {
+	padding: 10px;
+}
+
+.orderView th {
+	background: aliceblue;
+	text-align: left;
+}
+
+.clear {
+	clear: both;
+	height: 100px;
+}
