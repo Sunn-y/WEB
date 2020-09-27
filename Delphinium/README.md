@@ -1,22 +1,21 @@
 # Delphinium
 Java e-commerce software
-* * *
-
 * Catalogue
 * Shopping cart
 * Search
 * QnA, Review
 * Merchandise registration
 * Administration
-
+* * *
 ### See the demo
 ![main.jsp](https://github.com/Sunn-y/sunn-y.github.com/blob/master/img/Delp_main.png)
-
+![catalogue.jsp](https://github.com/Sunn-y/sunn-y.github.com/blob/master/img/Delp_catal.png)
+* * *
 ##### Development environment
 * java 1.8
 * tomcat v8.5
 * oracle v11.0
-	
+* * *	
 ##### Run the application with Tomcat 
 
 1. port번호 변경(8088)
@@ -29,7 +28,7 @@ Java e-commerce software
 
 
 
-
+* * *
 ### Access the application:
 -------------------
 
@@ -41,7 +40,7 @@ Java e-commerce software
 The instructions above will let you run the application with default settings and configurations.
 Please read the instructions on how to connect to MySQL, configure an email server and configure other subsystems
 
-
+* * *
 ### Participation:
 -------------------
 
